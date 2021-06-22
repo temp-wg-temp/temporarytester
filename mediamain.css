@@ -1,0 +1,846 @@
+@media (max-width:1200px){
+	/* Global Styles */
+	.container__custom{
+		max-width:940px;
+	}
+	/* END of Global styles */
+	
+
+	/* Styles for terms and privacy block  */
+	
+	.terms__privacy--wrap .outer__termsblock .left__switcher--terms ul li a{
+		font-size:20px;
+		line-height:32px;
+		padding-top:7px;
+		padding-bottom:7px;
+	}
+	.terms__privacy--wrap .outer__termsblock .left__switcher--terms{
+		min-width:280px;
+	}
+	.terms__privacy--wrap{
+		padding-top:45px;
+		padding-bottom:100px;
+	}
+
+	/* END of terms and privacy */
+
+	/* Styles for weego-payment block */
+
+	.weego__portals--main{
+		padding:45px 0px;
+	}
+	.weego__portals--main .weego__portals--wrap .head__portals h2 ,.weego__portals--main .weego__payment--methods>.head__payment>h2{
+		font-size:42px;
+		line-height:70px;
+	}
+
+	/* END of styles for weego-payment block */
+
+
+	/* Styles for Delivery */
+
+	.delivery__service--wrap .delivery__outer--wrap{
+		max-width:680px;
+	}
+	.delivery__service--wrap{
+		background-size:900px;
+	}
+	.delivery__service--wrap .delivery__outer--wrap .delivery__head>h2{
+		font-size:42px;
+		line-height:70px;
+	}
+	.delivery__service--wrap{
+		padding:45px 0px;
+	}
+
+	/* END for delivery */
+
+	/* LET GET TOGETHER BLOCK */
+
+	.together__block--wrap{
+		padding:45px 0px;
+	}
+	.together__block--wrap .together__outer--wrap .head__together h2{
+		font-size:42px;
+		line-height:70px;
+	}
+
+	/* END OF GET TOGETHER BLOCK */
+
+
+	/* WEEGOO CATEGORIES */
+
+	.weego__categories--wrap .outer__weego--categories .head__weego--categories>h2{
+		font-size:42px;
+		line-height:70px;
+	}
+
+	/* END OF WEEGOO CATEGORIES */	
+	
+	/* Styles for reasons */
+
+	.reasons__block--main{
+		padding-top:45px;
+		padding-bottom:45px;
+	}
+	.reasons__block--main .reasons__wrap .head__reason h2{
+		font-size:42px;
+		line-height:70px;
+		margin-bottom:30px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason{
+		margin-bottom:35px;
+	}
+
+
+	/* END of styles for reason block */
+
+	/* Styles for download app */
+
+	.download__block--main .outer__download .left__download>h2{
+		font-size:42px;
+		line-height:70px;
+	}
+
+	/* END of download app */
+
+
+	/* Styles for WEEGO-STORE */
+
+	.weego__store--block .outer__weego--store .left__weego--store>h2{
+		font-size:42px;
+		line-height:56px;
+	}
+
+	/* END of WEEGO-STORE */
+
+
+	/* Styles for headline block */
+	
+	.head__first--block .head__first--wrap.head__first--imagesearch .head__first--floatimage img{
+		max-width:300px;
+	}
+	.head__first--block .head__first--wrap .head__first--text h2{
+		font-size:42px;
+	}
+	.head__first--block .head__first--wrap .search__first--block>input[type="text"]{
+		max-width:350px;
+	}
+	/* END of styles for headline block */
+
+
+	/* Styles for category */
+
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories{
+		padding:20px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap{
+		grid-template-columns:repeat(2 , minmax(200px , 435px));
+	}
+	.categories__block--main .outer__categories .head__categories>h2{
+		font-size:42px;
+		line-height:68px;
+	}
+	
+	/*END styles for category */
+}
+@media (max-width:991px){
+
+	/* Styles for weego-payment block */
+
+	.weego__portals--main .weego__portals--wrap .inner__portals{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	.weego__portals--main .weego__payment--methods .payment__text p{
+		text-align:center;
+	}
+	.weego__portals--main .weego__portals--wrap .head__portals h2, .weego__portals--main .weego__payment--methods>.head__payment>h2{
+		text-align:center;
+	}
+	.weego__portals--main .weego__portals--wrap .inner__portals>.elem__portals{
+		margin-bottom:25px;
+	}
+	.weego__portals--main .weego__portals--wrap .inner__portals>.elem__portals:last-child{
+		margin-bottom:0px;
+	}
+
+	/* END of styles for weego-payment block */
+
+	/* Styles for reasons */
+
+	.reasons__block--main .reasons__wrap .inner__reason{
+		max-width:640px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason{
+		flex-basis:50%;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason:nth-child(4), .reasons__block--main .reasons__wrap .inner__reason>.elem__reason:nth-child(5){
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason:nth-child(4){
+		margin-bottom:35px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason:last-child{
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
+	/* END of styles for reason block */
+
+	/* Styles for download app */
+
+	.download__block--main .outer__download .right__download img{
+		max-width:335px;
+	}
+
+	.download__block--main{
+		padding:45px 0px;
+	}
+
+	/* END of download app */
+	
+	/* STYLES for WEEGOTITLE */
+
+	.weego__title--block .outer__weego--title h2{
+		font-size:25px;
+		line-height:40px;
+	}
+	.weego__title--block{
+		padding:40px 0px;
+	}
+
+	/* ENG OF weego title */
+
+
+
+	/* Styles for WEEGO-STORE */
+
+	.weego__store--block .outer__weego--store{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	.weego__store--block .outer__weego--store .left__weego--store{
+		padding-right:0px;
+		max-width:640px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:25px;
+		text-align:center;
+	}
+
+	/* END of WEEGO-STORE */
+
+
+	/* Styles for category */
+	.categories__block--main .outer__categories .inner__categories--wrap{
+		justify-content:center;
+		grid-template-columns:repeat(1 , minmax(200px , 540px));
+	}	
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories{
+		min-height:145px;
+	}
+	/*END styles for category */
+
+
+	/* Header styles */
+	header .outer__header--wrap  .right__header--menu{
+		display: block;
+	}
+	header .outer__header--wrap .right__header--wrap>.wrap__rightside--header{
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		height:100vh;
+		align-items:center;
+	}
+	header .outer__header--wrap .right__header--wrap .login__button--header{
+		margin-right:0px;
+		margin-bottom:20px;
+	}
+	header .outer__header--wrap .right__header--wrap .header__links ul{
+		margin-right:0px;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	header .outer__header--wrap .right__header--wrap .header__links ul li{
+		margin-right:0px;
+		margin-bottom:20px;
+	}
+	header .outer__header--wrap .right__header--wrap .header__links ul li a{
+		color:#fff;
+		font-size:18px;
+	}
+	header .outer__header--wrap .right__header--wrap{
+		display: none;
+		position: fixed;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100vh;
+		background-color:rgba(51,51,49,.9);
+		z-index:2;
+	}
+	/* Header end */
+
+	
+	/* Styles for headline block */
+	
+	.head__first--block .head__first--wrap.head__first--imagesearch .head__first--floatimage img{
+		max-width:250px;
+	}
+	.head__first--block .head__first--imagesearch{
+		padding-bottom:20px;
+	}
+	div.head__first--floatimage{
+		position: relative;
+		bottom:0px;
+	}
+	.head__first--block .head__first--wrap .search__first--block{
+		margin-bottom:15px;
+	}
+	.head__first--block{
+		padding-top: 80px;
+	}
+	.head__first--wrap.head__first--imagesearch{
+		text-align:center;
+	}
+	.head__first--block .head__first--wrap .search__first--block{
+		justify-content:center;
+		max-width:525px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.head__first--floatimage{
+		bottom:15px;
+		left:0px;
+		margin-left: auto;
+		margin-right:auto;
+		right:0px;
+	}
+	/* End for headline block */
+}
+
+@media (max-width:767px){
+	/* Styles for terms and privacy block  */
+	
+	.terms__privacy--wrap .outer__termsblock{
+		flex-direction:column;
+	}
+	.terms__privacy--wrap .outer__termsblock .left__switcher--terms{
+		margin-right:0px;
+		max-width:100%;
+		width:100%;
+		min-width:0px;
+		margin-bottom:25px;
+	}
+
+	/* END of terms and privacy */
+
+	/* FOQ block styles */
+	.foq__block--main{
+		padding-top:45px;
+		padding-bottom:130px;
+	}
+	.foq__block--main .outer__foq .elem__foq .head__foq{
+		padding-left:25px;
+		padding-right:45px;
+	}
+	.foq__block--main .outer__foq .elem__foq .head__foq span{
+		right:25px;
+	}
+	.foq__block--main .outer__foq .elem__foq .content__foq{
+		padding-left:25px;
+		padding-right:25px;
+	}
+
+	/* FOQ block ends */
+
+
+	/* LET GET TOGETHER BLOCK */
+
+	.together__block--wrap .together__outer--wrap .together__text .together__contact{
+		margin-top:35px;
+	}
+
+	/* END OF GET TOGETHER BLOCK */
+
+	/* WEEGOO CATEGORIES */
+
+	.weego__categories--wrap .outer__weego--categories .inner__weego--categories{
+		flex-direction:column;
+		justify-content:flex-start;
+		align-items:flex-start;
+	}
+	.weego__categories--wrap .outer__weego--categories .elem__weego--categories{
+		margin-right:0px;
+	}
+
+	/* END OF WEEGOO CATEGORIES */	
+
+	/* ABOUT us text */
+
+	.about__us--textwrap .outer__aboutus--text{
+		padding:45px 0px;
+		max-width:100%;
+	}
+	.about__us--textwrap .outer__aboutus--text p{
+		font-size:18px;
+		line-height:28px;
+	}
+
+	/* ABOUT us end */
+
+
+
+	/* Styles for reasons */
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason:nth-child(4){
+		margin-bottom:25px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason:last-child{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason{
+		flex-basis:100%;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason{
+		margin-bottom:25px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason:last-child{
+		margin-bottom:0px;
+	}
+
+	/* END styles for reasons */
+
+	/* Styles for download app */
+
+	.download__block--main .outer__download{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	.download__block--main .outer__download .left__download{
+		text-align:center;
+	}
+	.download__block--main .outer__download .left__download .download__buttons{
+		justify-content:center;
+	}
+	.download__block--main .outer__download .right__download img{
+		max-width:380px;
+	}
+
+	/* END of download app */
+
+	
+	/* STYLES for WEEGOTITLE */
+
+	.weego__title--block .outer__weego--title h2{
+		font-size:22px;
+		line-height:34px;
+	}
+	.weego__title--block{
+		padding:30px 0px;
+	}
+
+	/* ENG OF weego title */
+
+	/* Categories styles */
+
+	.categories__block--main{
+		padding-top:40px;
+		padding-bottom:40px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories h6{
+		font-size:20px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories p{
+		font-size:15px;
+		line-height:20px;
+	}
+
+	/* END of categories styles */
+
+
+	/* Footer styles */
+	footer.dark__foot .outer__footer .top__footer{
+		flex-direction:column;
+		margin-bottom:20px;
+	}
+	footer.dark__foot .outer__footer .top__footer .right__top--foot ul li{
+		margin-right: 35px;
+	}
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer .right__info--menu ul li{
+		margin-right:35px;
+	}
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer .right__info--menu ul{
+		padding-left:0px;
+		margin-bottom:0px;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-items:center;
+	}
+	footer.dark__foot .outer__footer .copyright__footer{
+		margin-top:30px;
+		flex-direction:column;
+	}
+	footer.dark__foot .outer__footer .top__footer>.left__top--foot{
+		margin-bottom:15px;
+	}
+	footer.dark__foot{
+		padding:35px 0px;
+	}
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer .left__socials{
+		margin-bottom:15px;
+	}
+	/* End of footer styles */
+}
+
+@media (max-width:480px){
+
+	/* Styles for terms and privacy block  */
+	
+	.terms__privacy--wrap .outer__termsblock .right__content--terms>.elem__of--document>p{
+		font-size:18px;
+		margin-bottom:15px;
+		line-height:28px;
+	}
+	.terms__privacy--wrap .outer__termsblock .left__switcher--terms{
+		margin-bottom:15px;
+	}
+	.terms__privacy--wrap .outer__termsblock .right__content--terms>.elem__of--document>h6{
+		font-size:18px;
+		line-height:28px;
+	}
+	.terms__privacy--wrap{
+		padding-top:25px;
+		padding-bottom:50px;
+	}
+
+	/* END of terms and privacy */
+
+	/* FOQ block styles */
+	.foq__block--main{
+		padding-top:25px;
+		padding-bottom:80px;
+	}
+	.foq__block--main .outer__foq .elem__foq .head__foq{
+		padding-left:15px;
+		padding-right:30px;
+	}
+	.foq__block--main .outer__foq .elem__foq .head__foq span{
+		right:5px;
+	}
+	.foq__block--main .outer__foq .elem__foq .content__foq{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.foq__block--main .outer__foq .elem__foq .head__foq p{
+		font-size:18px;
+		line-height:28px;
+	}
+	.foq__block--main .outer__foq .elem__foq .content__foq p{
+		font-size:18px;
+		line-height: 28px;
+	}
+
+	/* FOQ block ends */
+
+	/* Styles for weego-payment block */
+	
+	.weego__portals--main .weego__portals--wrap .inner__portals>.elem__portals p{
+		font-size:18px;
+	}
+	.weego__portals--main .weego__payment--methods .payment__text p{
+		font-size:18px;
+		line-height:28px;
+	}
+	.weego__portals--main .weego__portals--wrap{
+		margin-bottom:40px;
+	}
+	.weego__portals--main{
+		padding:25px 0px;
+	}
+	.weego__portals--main .weego__portals--wrap .head__portals h2, .weego__portals--main .weego__payment--methods>.head__payment>h2{
+		font-size:32px;
+		line-height:50px;
+	}
+	.weego__portals--main .weego__portals--wrap .inner__portals>.elem__portals{
+		margin-bottom:15px;
+	}
+
+	/* END of styles for weego-payment block */
+
+	/* Styles for Delivery */
+	.delivery__service--wrap .delivery__outer--wrap .delivery__info--inner{
+		margin-top:15px;
+	}
+	.delivery__service--wrap .delivery__outer--wrap{
+		max-width:100%;
+	}
+	.delivery__service--wrap{
+		background-size:900px;
+	}
+	.delivery__service--wrap .delivery__outer--wrap .delivery__head>h2{
+		font-size:32px;
+		line-height:50px;
+	}
+	.delivery__service--wrap .delivery__outer--wrap .delivery__info--inner>h6{
+		font-size:18px;
+		line-height:35px;
+	}
+	.delivery__service--wrap{
+		padding:25px 0px;
+	}
+	.delivery__service--wrap .delivery__outer--wrap .delivery__info>p{
+		font-size:18px;
+		line-height:28px;
+	}
+	.delivery__service--wrap .delivery__outer--wrap .delivery__info--inner ul{
+		padding-left:15px;
+	}
+	.delivery__service--wrap{
+		background-size:600px;
+		padding-bottom:80px;
+	}
+
+	/* END for delivery */
+
+	/* LET GET TOGETHER BLOCK */
+
+	.together__block--wrap{
+		padding:25px 0px;
+	}
+	.together__block--wrap .together__outer--wrap .head__together h2{
+		font-size:32px;
+		line-height:50px;
+	}
+	.together__block--wrap .together__outer--wrap .together__text p{
+		font-size:18px;
+		line-height:28px;
+	}
+
+	/* END OF GET TOGETHER BLOCK */
+
+	/* WEEGOO CATEGORIES */
+
+	.weego__categories--wrap{
+		padding:25px 0px;
+	}
+	.weego__categories--wrap .outer__weego--categories .head__weego--categories>h2{
+		font-size:32px;
+		line-height:50px;
+	}
+	.weego__categories--wrap .outer__weego--categories .elem__weego--categories p{
+		font-size:18px;
+	}
+
+	/* END OF WEEGOO CATEGORIES */	
+
+	/* ABOUT us text */
+
+	.about__us--textwrap .outer__aboutus--text{
+		padding:25px 0px;
+		max-width:100%;
+	}
+	.about__us--textwrap .outer__aboutus--text p{
+		font-size:17px;
+		line-height:26px;
+	}
+
+	/* ABOUT us end */
+
+	/* Styles for reasons */
+	.reasons__block--main{
+		padding:25px 0px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason .reason__image img{
+		max-height:100px;
+	}
+	.reasons__block--main .reasons__wrap .head__reason h2{
+		font-size:32px;
+		line-height:50px;
+		margin-bottom:20px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason h6{
+		font-size:20px;
+		line-height:38px;
+	}
+	.reasons__block--main .reasons__wrap .inner__reason>.elem__reason p{
+		font-size:15px;
+		line-height:21px;
+	}
+
+	/* END of reasons */
+
+	/* Styles for download app */
+
+	.download__block--main{
+		padding:25px 0px;
+	}
+	.download__block--main .outer__download .left__download>h2{
+		font-size:32px;
+		line-height:48px;
+		margin-top:0px;
+	}
+	.download__block--main .outer__download .left__download>p{
+		font-size:18px;
+		line-height:34px;
+	}
+	.download__block--main .outer__download .left__download .download__buttons{
+		margin-top:25px;
+	}
+	.download__block--main .outer__download .right__download{
+		margin-bottom:-160px;
+	}
+	.download__block--main .outer__download .left__download .download__buttons>a{
+		margin-right:12px;
+	}
+	.download__block--main .outer__download .left__download .download__buttons>a img{
+		max-width:135px;
+	}
+
+	/* END of download app */
+
+
+	/* Styles for WEEGO-STORE */
+
+	.weego__store--block{
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	.weego__store--block .outer__weego--store .right__weego--store .head__right--weego>p{
+		font-size:26px;
+		line-height:42px;
+		max-width:150px;
+	}
+	.weego__store--block .outer__weego--store .right__weego--store .head__right--weego{
+		padding:20px 15px;
+	}
+	.weego__store--block .outer__weego--store .right__weego--store .head__right--weego .house__right--weego img{
+		max-width:80px;
+	}
+	.weego__store--block .outer__weego--store .right__weego--store{
+		min-width:0px;
+		width:100%;
+		max-width:350px;
+	}
+
+	.weego__store--block .outer__weego--store .left__weego--store>h2{
+		font-size:32px;
+		line-height:40px;
+	}
+	
+	/* END of WEEGO-STORE */
+
+	/* Categories styles */
+	.categories__block--main .outer__categories .inner__categories--wrap{
+		max-width:280px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.categories__block--main{
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+	div.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .image__wrap--categories{
+		max-width:100%;
+		min-width:100%;
+		width:100%;
+		height:120px;
+	}
+	.categories__block--main .outer__categories .head__categories>h2{
+		font-size:32px;
+		line-height:50px;
+		margin-bottom:20px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories h6{
+		font-size:18px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .image__wrap--categories{
+		min-width:130px;
+		max-width:130px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories{
+		padding:20px 12px;
+	}
+	.categories__block--main .outer__categories .inner__categories--wrap>.elem__categories .info__wrap--categories p{
+		font-size:14px;
+		line-height:18px;
+	}
+
+	/* END of categories styles */
+
+
+
+	/* Footer styles */
+	
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer .right__info--menu ul li{
+		margin-right:0px;
+		margin-bottom:15px;
+	}
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer .right__info--menu ul li:last-child{
+		margin-bottom:0px;
+	}
+	footer.dark__foot .outer__footer .bottom__footer .socials__footer .right__info--menu ul{
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}
+
+	/* End of footer styles */
+
+
+	/* Styles for headline block */
+	.head__first--block{
+		padding-top:40px;
+		padding-bottom:20px;
+	}
+	.head__first--block .head__first--wrap .head__first--text h2{
+		font-size:32px;
+		line-height:50px;
+	}
+	.head__first--block .head__first--imagesearch{
+		padding-bottom:0px;
+	}
+	.head__first--block .head__first--wrap .search__first--block{
+		margin-top:15px;
+		flex-direction: column;
+	}
+	.head__first--block .head__first--wrap .search__first--block .group__submit--search{
+		margin-left:0px;
+	}
+	.head__first--block .head__first--wrap.head__first--imagesearch .head__first--floatimage img{
+		max-width:200px;
+	}
+	.head__first--block .head__first--wrap .search__first--block>input[type="text"]{
+		max-width:100%;
+		margin-bottom:15px;
+	}
+	.head__first--block .head__first--wrap .search__first--block>span{
+		left:15px;
+		top:9px;
+	}
+
+	/* END of styles for headline */
+}
